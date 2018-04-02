@@ -1,1 +1,0 @@
-# lagom-unit-and-component-testing.g8
