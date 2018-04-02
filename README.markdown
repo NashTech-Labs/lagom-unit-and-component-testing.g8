@@ -1,25 +1,25 @@
 A [Giter8][g8] template for ...!
 
-##lagom-unit-and-component-testing
+#lagom-unit-and-component-testing
 A basic application to show the difference between unit and component testing in Lagom.
 
-##Clone the application
+#Clone the application
 sbt new jasmine-k/lagom-unit-and-component-testing.g8
 
 cd lagom-unit-and-component-testing/
 
 sbt clean compile
 
-##To Compile the application
+#To Compile the application
 Hit the below command
 
 sbt clean compile
 
-##To Run the application
+#To Run the application
 1. sbt runAll
 2. Hit the URI : localhost:9000/user
 
-##To test the application
+#To test the application
 sbt test
 
 ----------------
