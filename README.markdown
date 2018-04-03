@@ -1,7 +1,7 @@
 A [Giter8][g8] template for showcasing show the difference between unit and component testing in Lagom.
 
 ## lagom-unit-and-component-testing
-#	A basic application to show the difference between unit and component testing in Lagom.
+	A basic application to show the difference between unit and component testing in Lagom.
 
 ## Clone the application
 	
