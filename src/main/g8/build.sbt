@@ -38,7 +38,7 @@ lazy val `user-impl` = (project in file("user-impl"))
       junit,
       lagomJavadslTestKit
     ),
-    javaOptions in Test += s"-javaagent:\${jmockitPath((dependencyClasspath in Test).value.files)}"
+    javaOptions in Test += s"-javaagent:${jmockitPath((dependencyClasspath in Test).value.files)}"
 
   )
   .settings(lagomForkedTestSettings: _*)
